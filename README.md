@@ -1,16 +1,5 @@
-# E-Commerce Public Data Analysis with Python - Dicoding
+# Bike-sharing Data Analysis with Python - Dicoding
 
-## [Click for see the app](https://data-analyst-dicoding-dxqpxac5bhzv2kdv43hhhk.streamlit.app/) 
-
-## Table of Contents
-- [Overview](#overview)
-- [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Data Sources](#data-sources)
-
-## Overview
-This project is a data analysis and visualization project focused on e-commerce public data. It includes code for data wrangling, exploratory data analysis (EDA), and a Streamlit dashboard for interactive data exploration. This project aims to analyze data on the E-Commerce Public Dataset.
 
 ## Project Structure
 - `dashboard/`: This directory contains dashboard.py which is used to create dashboards of data analysis results.
@@ -19,15 +8,11 @@ This project is a data analysis and visualization project focused on e-commerce 
 - `README.md`: This documentation file.
 
 ## Installation
-1. Clone this repository to your local machine:
+1. Go to the project directory
 ```
-git clone https://github.com/Maretaaliana/data-analyst-dicoding.git
+cd bike-sharing-dataset
 ```
-2. Go to the project directory
-```
-cd data-analyst-dicoding
-```
-3. Install the required Python packages by running:
+2. Install the required Python packages by running:
 ```
 pip install -r requirements.txt
 ```
@@ -40,7 +25,7 @@ pip install -r requirements.txt
 3. **Visualization**: Run the Streamlit dashboard for interactive data exploration:
 
 ```
-cd data-analyst-dicoding/dashboard
+cd bike-sharing-dataset/dashboard
 streamlit run dashboard.py
 ```
 Access the dashboard in your web browser at `http://localhost:8501`.
